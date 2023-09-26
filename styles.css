@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+
+div{
+	display:flex;
+	height:100vh;
+	
+}
+nav{
+	background-color:#D7E8D4;
+	flex:1;
+	padding:1em;
+}
+main{
+	flex:5;
+	display: flex;
+    flex-direction: column;
+}
+header,footer{
+	background-color:yellowgreen;
+	flex:1;
+   padding:1em;
+	
+}
+article{
+	flex:3;
+	padding:1em;
+	
+}
+section{
+	display:flex;
+	flex:4;
+	
+}
+aside{
+	flex:1;
+	background-color:#f5f5dc;
+	padding:1em;
+	
+}
